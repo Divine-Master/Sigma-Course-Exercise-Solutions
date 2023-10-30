@@ -1,1 +1,1 @@
-# Sigma-Course-Exercise-solutions.
+# Sigma-Course-Exercise-solutions
