@@ -1,0 +1,76 @@
+body{
+width: 100vw;
+height: 100vh;
+background: linear-gradient(to right bottom, #23b4d9, #1666d4, #7906e8);
+}
+
+h1 {
+font-size: 7vw;
+text-align: center;
+}
+
+div{
+align-self: center;
+margin: auto;
+padding: 5px;
+}
+
+button{
+margin: 5px auto;
+border: 1vw solid white;
+width: 85vw;
+height: 12vh;
+font-size: 5vw;
+font-family: 'Times New Roman';
+border-radius: 6vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+button a{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+span{
+width: 7.5vw;
+height: 4vh;
+}
+
+.google-icon {
+background-image: url("google-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.replit-icon {
+background-image: url("replit-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.github-icon {
+background-image: url("github-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.chatgpt-icon {
+background-image: url("chatgpt-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.codewithharry-icon {
+background-image: url("codewithharry-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.deathclock-icon {
+background-image: url("deathclock-icon.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
