@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.frame{
+    border: 2px solid #dbe4cb;
+    width: 50vw;
+    border-radius: 15px;
+    padding: 5px;   
+    margin: 15vh;
+}
+
+img{
+    margin-left: 0.6vw;
+    width: 49vw;
+    height: 30vh;
+    border-radius: 15px;
+}
+
+span{
+    border: 1px solid #c5ee99;
+    border-radius: 20px;
+    padding: 0 10px;
+    margin:0 0.5vw;
+    font-size: 2.5vw;
+}
+
+h2{
+    padding: 5px;
+    margin: 5px;
+    font-size: 3vh;
+}
+
+.disk{
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: 1px solid blue;
+    border-radius: 5vw;
+    text-align: center;
+    background: skyblue;
+    font-size: 90%;
+    padding: 0 10px;
+}
+
+p{
+    font-size: 2vh;
+    margin: 0 8px;
+    color: gray;
+}
