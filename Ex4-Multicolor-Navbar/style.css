@@ -1,0 +1,13 @@
+       :root{
+            --bgc: #ee87eae6;
+            --color: #955ae9;
+            --navcolor: white;
+            --lihover: #87eea2e6;
+            --navbackground: #45e56fe6;
+            --pcolor: #e2efe5d3;
+        }
+    
+        *{
+            margin: 0;
+            padding: 0;
+        }
