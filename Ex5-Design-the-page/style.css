@@ -15,13 +15,16 @@ ul li{
 
 ul{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav{
-    background: #f046fe;
-    position: fixed;
+    background: #d94fe6;
+    position: sticky;
+    top: 0;
     width: 100%;
-    height: 5vh;
+    min-height: 5vh;
 }
 
 main{
@@ -33,11 +36,11 @@ main{
     width: 92%;
     height: 30vh;
     background: darkgreen;
-    margin: auto;
-    margin-top: 5vh;
     display: flex;
-    padding: 3vw;
-}
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;    
+ }
 
 .box{
     width: 45%;
@@ -66,6 +69,7 @@ main{
     justify-content: center;
     padding: 3vw;
     font-size: 4vw;
+    color: azure;
 }
 
 footer{
@@ -76,7 +80,7 @@ footer{
 .icon{
     width: 13vw;
     height: 8vh;
-    border-radius: 8vw;
+    border-radius: 8000vw;
     background: azure;
     position: fixed;
     right: 0;
