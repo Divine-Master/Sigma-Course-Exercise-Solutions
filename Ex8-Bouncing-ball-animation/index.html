@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercise 8 Solution</title>
+  <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      
+      .container{
+          position: relative;
+          width: 94vw;
+          height: 45vh;
+          margin: auto;
+          margin-top: 15px;
+          background: #80aefb;
+      }
+      
+      .box{
+          width: 70px;
+          height: 70px;
+          background: red;
+          border-radius: 100%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          animation: Xmoment 3s linear infinite, Ymoment 1s ease-out infinite alternate;
+      }
+      
+      @keyframes Xmoment{
+          from{
+              left: 0;
+          }
+          to{
+              left: 90vw;
+          }
+      }
+      
+      @keyframes Ymoment{
+          from{
+              bottom: 0;
+          }
+          to{
+              bottom: 30vh;
+          }
+      }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        </div>
+    </div>
+</body>
+</html>
