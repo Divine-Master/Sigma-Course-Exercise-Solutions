@@ -8,7 +8,7 @@ let obj = {
   '-': '/',
   '/': '**'
 };
-alert(random);
+// alert(`The Value of random is ${random}`);
 
 const calculator = (a, b, c) => {
   a = parseInt(a);
