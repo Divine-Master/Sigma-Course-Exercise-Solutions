@@ -1,4 +1,4 @@
-function createCard(title, cName, Acviews, monthsOld, duration, thumbnail){
+function createCard(title, cName, Acviews, monthsOld, duration, thumbnail) {
     title = prompt('Enter title');
     cName = prompt('Enter Channel name')
     Acviews = parseInt(prompt('Enter no. of views'))
@@ -26,7 +26,7 @@ function createCard(title, cName, Acviews, monthsOld, duration, thumbnail){
                 <p>${cName} . ${viewStr} views . ${monthsOld} months ago</p>
             </div>
         </div>`
-    
+
     document.querySelector('.container').innerHTML += html
 }
 
