@@ -38,3 +38,6 @@ async function main() {
     await randomDelay()
     clearInterval(sett)
 }
+
+let btn = document.getElementsByClassName('btn')
+btn.addEventListener("click", main())
