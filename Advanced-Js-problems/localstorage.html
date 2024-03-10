@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes</title>
+</head>
+
+<body>
+  <button>Add Note</button>
+  <div class="notes"></div> <script>
+
+    function saveNoteToLocalStorage(note) {
+      // Get existing notes (or an empty array if none exist)
+      let existingNotes = JSON.parse(localStorage.getItem("notes")) || [];
+      existingNotes.push(note); // Add new note to the array
+      localStorage.setItem("notes", JSON.stringify(existingNotes));
+    }
+
+    // Load existing notes from localStorage
+    let notes = JSON.parse(localStorage.getItem("notes")) || [];
+
+    // Display all existing notes
+    const noteContainer = document.querySelector(".notes");
+    notes.forEach(note => {
+      const noteElement = document.createElement("p");
+      noteElement.textContent = note;
+      noteContainer.appendChild(noteElement);
+    });
+
+    document.querySelector("button").addEventListener("click", () => {
+      let note = prompt("Enter your note");
+      if (note) { // Check if note is not empty
+        saveNoteToLocalStorage(note);
+
+        // Add the new note to the UI
+        const noteElement = document.createElement("p");
+        noteElement.textContent = note;
+        noteContainer.appendChild(noteElement);
+      }
+    });
+
+  </script>
+</body>
+
+</html>
