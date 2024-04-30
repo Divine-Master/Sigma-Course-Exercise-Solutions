@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Validatx - Email Validator</title>
+  <link rel="stylesheet" href="src/output.css" type="text/css" media="all" />
+</head>
+<body class="m-0 p-0">
+  <header>
+    <nav class="bg-blue-800 text-white flex flex-row justify-between p-1">
+      <div class="logo flex flex-row">
+        <img class="w-7 invert" src="logos/logo.svg" alt="logo" />
+        <span class="text-2xl">ValidatX</span>
+      </div>
+      <ul class="flex space-x-3 justify-center align-middle p-1">
+        <li><a class="decoration-0" href="/">Home</a></li>
+        <li><a class="decoration-0" href="/">About</a></li>
+        <li><a class="decoration-0" href="/">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="min-h-[100vh] space-y-10">
+    <div class="ml-5 p-1.5 flex flex-col space-y-3">
+      <h1 class="text-[25px] m-auto">ValidatX - Validate Your Emails</h1>
+      <div class="flex p-1 space-x-1.5 m-auto">
+        <label for="user" class="text-[20px] p-0.5">Enter Email:</label>
+        <input type="email" name="user" id="user" class="border-2 border-black rounded" value="" placeholder="Enter Email"/>
+      </div>
+    <input type="submit" name="send" id="send" value="Submit" class="bg-blue-600 text-white p-1.5 rounded-full border-2 border-y-blue-300 w-fit m-auto"/>
+    </div>
+    <div class="p-0.5 text-[20px] ml-5 flex align-middle flex-col" id="result">
+      <h2>
+      Here are the result : 
+      </h2>
+    </div>
+  </main>
+  <footer>
+    <div class="align-bottom bg-amber-400">
+      <h3>Copyright | All Rights Reserverd</h3>
+    </div>
+  </footer>
+  <script src="./src/script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
