@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Currcyo- Your Currency Converter</title>
+  <link rel="stylesheet" href="src/style.css" type="text/css" media="all" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="img">
+        <h2>Currcyo</h2>
+      </div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About Us</a></li>
+        <li><a href="/">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="main">
+    <div id="container">
+      <h2>Currcyo - Your Currency Converter</h2>
+      <div>
+      <label for="currency">Choose The Base Currency: </label>
+      <select name="currency" id="sel">
+        <option value="USD">USD</option>
+        <option value="INR">INR</option>
+        <option value="BTC">BTC</option>
+        <option value="AUD">AUD</option>
+      </select>
+      </div>
+      <div>
+      <label for="amount">Enter Amount: </label>
+      <input type="number" name="amount" id="amount" value="" />
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </div>
+    <div id="results">
+      Here are the exchanged rate
+      <div class="output">
+        <table border="2">
+          <thead>
+            <tr>
+              <td>Currency</td>
+              <td>Code</td>
+              <td>Value</td>
+            </tr>
+          </thead>
+          <tbody id="res">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <footer>
+    Copyright © || All Rights Reserved
+  </footer>
+  <script src="src/script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
