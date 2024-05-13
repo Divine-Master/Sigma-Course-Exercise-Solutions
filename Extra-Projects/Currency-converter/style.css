@@ -92,7 +92,7 @@ footer {
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@400;600&display=swap');
 
   * {
@@ -128,10 +128,10 @@ footer {
     margin: 0 23px;
     font-size: 24px;
   }
-div.img h2{
+  div.img h2 {
     color: black;
-  
-}
+
+  }
 
   nav ul li {
     list-style: none;
@@ -151,7 +151,7 @@ div.img h2{
   #container h1,h2 {
     margin: 23px 0;
   }
-  #container{
+  #container {
     display: flex;
     flex-direction: column;
     gap: 2vh;
@@ -168,12 +168,12 @@ div.img h2{
   }
 
   .btn {
-    width: 150px;
+    min-width: 140px;
     padding: 5px 8px;
-    font-size: 20px;
+    font-size: 24px;
     background: #e0d0f5;
     color: black;
-    border-radius: 13px;
+    border-radius: 15px;
     cursor: pointer;
   }
 

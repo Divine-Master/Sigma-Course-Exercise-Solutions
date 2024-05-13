@@ -16,4 +16,4 @@ function realAddMirror(str) {
     return str.concat(mirrorString)
 }
 
-console.log(realAddMirror('deu88kv'))
+console.log(realAddMirror('deku'))
