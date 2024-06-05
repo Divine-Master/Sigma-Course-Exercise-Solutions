@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Card from './Card'; // Assuming Card is a separate component
+import Card from './Card';
 
 const Main = () => {
   const [cards, setCards] = useState([]);
@@ -18,7 +18,7 @@ const Main = () => {
   }, []); 
 
   return (
-    <main className="bg-gray-700 min-h-screen flex flex-col p-8 text-white gap-1.5">
+    <main className="bg-gray-700 min-h-screen flex flex-col p-16 text-white gap-1.5">
       <h1 className="text-3xl md:text-5xl font-light underline decoration-double flex justify-center ">
         Card Creator
       </h1>
